@@ -1,0 +1,86 @@
+* {
+  font-family: Lucida Handwriting, cursive;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  width: 90%;
+  margin: 30px auto 20px auto;
+  height: max-content;
+}
+
+.row {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menuplat {
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.borduremenu {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: darkseagreen;
+  position: relative;
+  border: 1px solid;
+  height: auto;
+}
+
+#p1 {
+  background-color: darksalmon;
+}
+#p2 {
+  background-color: rgb(240, 225, 90);
+}
+#p3 {
+  background-color: rgb(149, 115, 241);
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,
+  .col-md-12 {
+    float: left;
+    margin-bottom: 20px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    margin-bottom: 20px;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
